@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Actividades y prácticas",
+    "weight": 30
+  },
+  {
+    "name": "Evaluaciones individuales",
+    "weight": 30
+  },
+  {
+    "name": "Proyecto integrador",
+    "weight": 30
+  },
+  {
+    "name": "Participación y autoestudios",
+    "weight": 10
+  }
+]

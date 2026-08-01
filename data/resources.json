@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Casos de prueba",
+    "type": "PDF",
+    "url": "materials/documents/Casos de Prueba.pdf",
+    "module": "funciones"
+  },
+  {
+    "title": "Convenciones de estilo en Python",
+    "type": "PDF",
+    "url": "materials/documents/Convenciones de Estilo en Python.pdf",
+    "module": "variables"
+  },
+  {
+    "title": "Algoritmos: lectura",
+    "type": "PDF",
+    "url": "materials/documents/algoritmos_lectura.pdf",
+    "module": "algoritmos"
+  },
+  {
+    "title": "Ejemplos y actividades del curso anterior",
+    "type": "Colección",
+    "url": "materials/legacy/activities/",
+    "module": "general"
+  }
+]

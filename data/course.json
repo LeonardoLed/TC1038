@@ -1,0 +1,17 @@
+{
+  "code": "TC1038",
+  "name": "Fundamentos de Programación",
+  "period": "Agosto–Diciembre 2026",
+  "campus": "Campus Querétaro",
+  "instructor": {
+    "name": "Dr. Leonardo Ledesma Domínguez",
+    "email": "leonardo.ledesma@tec.mx"
+  },
+  "description": "Aprende a diseñar algoritmos, resolver problemas y construir programas utilizando Python.",
+  "links": {
+    "canvas": "#",
+    "teams": "#",
+    "github": "#"
+  },
+  "currentWeek": 1
+}

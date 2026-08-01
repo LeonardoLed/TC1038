@@ -1,0 +1,29 @@
+{
+  "stages": [
+    {
+      "number": 1,
+      "title": "Identificación del problema",
+      "description": "Define usuarios, necesidad, entradas y salidas."
+    },
+    {
+      "number": 2,
+      "title": "Diseño de la solución",
+      "description": "Construye algoritmos, funciones y casos de prueba."
+    },
+    {
+      "number": 3,
+      "title": "Estructuras de datos",
+      "description": "Integra listas, matrices y cadenas."
+    },
+    {
+      "number": 4,
+      "title": "Persistencia e integración",
+      "description": "Agrega archivos y consolida el programa."
+    },
+    {
+      "number": 5,
+      "title": "Entrega final",
+      "description": "Presenta código, documentación, pruebas y demostración."
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+[
+  {
+    "week": 1,
+    "module": "algoritmos",
+    "title": "Algoritmos y solución de problemas",
+    "status": "current",
+    "sessions": [
+      {
+        "title": "Conceptos y demostración",
+        "type": "class",
+        "topics": [
+          "Algoritmos",
+          "Pseudocódigo"
+        ]
+      },
+      {
+        "title": "Práctica guiada",
+        "type": "practice",
+        "topics": [
+          "Ejercicios progresivos",
+          "Casos de prueba"
+        ]
+      }
+    ],
+    "deliverables": []
+  },
+  {
+    "week": 2,
+    "module": "variables",
+    "title": "Variables y cálculos",
+    "status": "upcoming",
+    "sessions": [
+      {
+        "title": "Conceptos y demostración",
+        "type": "class",
+        "topics": [
+          "Variables",
+          "Tipos de datos"
+        ]
+      },
+      {
+        "title": "Práctica guiada",
+        "type": "practice",
+        "topics": [
+          "Ejercicios progresivos",
+          "Casos de prueba"
+        ]
+      }
+    ],
+    "deliverables": []
+  },
+  {
+    "week": 3,
+    "module": "funciones",
+    "title": "Programación modular",
+    "status": "upcoming",
+    "sessions": [
+      {
+        "title": "Conceptos y demostración",
+        "type": "class",
+        "topics": [
+          "Funciones",
+          "Parámetros"
+        ]
+      },
+      {
+        "title": "Práctica guiada",
+        "type": "practice",
+        "topics": [
+          "Ejercicios progresivos",
+          "Casos de prueba"
+        ]
+      }
+    ],
+    "deliverables": [
+      {
+        "title": "Evidencia del módulo 3",
+        "platform": "Canvas"
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "module": "condicionales",
+    "title": "Estructuras condicionales",
+    "status": "upcoming",
+    "sessions": [
+      {
+        "title": "Conceptos y demostración",
+        "type": "class",
+        "topics": [
+          "if",
+          "elif"
+        ]
+      },
+      {
+        "title": "Práctica guiada",
+        "type": "practice",
+        "topics": [
+          "Ejercicios progresivos",
+          "Casos de prueba"
+        ]
+      }
+    ],
+    "deliverables": []
+  },
+  {
+    "week": 5,
+    "module": "while",
+    "title": "Ciclo while",
+    "status": "upcoming",
+    "sessions": [
+      {
+        "title": "Conceptos y demostración",
+        "type": "class",
+        "topics": [
+          "while",
+          "Contadores"
+        ]
+      },
+      {
+        "title": "Práctica guiada",
+        "type": "practice",
+        "topics": [
+          "Ejercicios progresivos",
+          "Casos de prueba"
+        ]
+      }
+    ],
+    "deliverables": []
+  },
+  {
+    "week": 6,
+    "module": "for",
+    "title": "Ciclo for",
+    "status": "upcoming",
+    "sessions": [
+      {
+        "title": "Conceptos y demostración",
+        "type": "class",
+        "topics": [
+          "for",
+          "range"
+        ]
+      },
+      {
+        "title": "Práctica guiada",
+        "type": "practice",
+        "topics": [
+          "Ejercicios progresivos",
+          "Casos de prueba"
+        ]
+      }
+    ],
+    "deliverables": [
+      {
+        "title": "Evidencia del módulo 6",
+        "platform": "Canvas"
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "module": "listas",
+    "title": "Listas",
+    "status": "upcoming",
+    "sessions": [
+      {
+        "title": "Conceptos y demostración",
+        "type": "class",
+        "topics": [
+          "Listas",
+          "Métodos"
+        ]
+      },
+      {
+        "title": "Práctica guiada",
+        "type": "practice",
+        "topics": [
+          "Ejercicios progresivos",
+          "Casos de prueba"
+        ]
+      }
+    ],
+    "deliverables": []
+  },
+  {
+    "week": 8,
+    "module": "matrices",
+    "title": "Listas anidadas y matrices",
+    "status": "upcoming",
+    "sessions": [
+      {
+        "title": "Conceptos y demostración",
+        "type": "class",
+        "topics": [
+          "Matrices",
+          "Índices"
+        ]
+      },
+      {
+        "title": "Práctica guiada",
+        "type": "practice",
+        "topics": [
+          "Ejercicios progresivos",
+          "Casos de prueba"
+        ]
+      }
+    ],
+    "deliverables": []
+  },
+  {
+    "week": 9,
+    "module": "cadenas",
+    "title": "Cadenas de caracteres",
+    "status": "upcoming",
+    "sessions": [
+      {
+        "title": "Conceptos y demostración",
+        "type": "class",
+        "topics": [
+          "Strings",
+          "Métodos"
+        ]
+      },
+      {
+        "title": "Práctica guiada",
+        "type": "practice",
+        "topics": [
+          "Ejercicios progresivos",
+          "Casos de prueba"
+        ]
+      }
+    ],
+    "deliverables": [
+      {
+        "title": "Evidencia del módulo 9",
+        "platform": "Canvas"
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "module": "bibliotecas",
+    "title": "Bibliotecas y módulos",
+    "status": "upcoming",
+    "sessions": [
+      {
+        "title": "Conceptos y demostración",
+        "type": "class",
+        "topics": [
+          "import",
+          "Módulos"
+        ]
+      },
+      {
+        "title": "Práctica guiada",
+        "type": "practice",
+        "topics": [
+          "Ejercicios progresivos",
+          "Casos de prueba"
+        ]
+      }
+    ],
+    "deliverables": []
+  },
+  {
+    "week": 11,
+    "module": "archivos",
+    "title": "Archivos de texto",
+    "status": "upcoming",
+    "sessions": [
+      {
+        "title": "Conceptos y demostración",
+        "type": "class",
+        "topics": [
+          "Archivos",
+          "Lectura"
+        ]
+      },
+      {
+        "title": "Práctica guiada",
+        "type": "practice",
+        "topics": [
+          "Ejercicios progresivos",
+          "Casos de prueba"
+        ]
+      }
+    ],
+    "deliverables": []
+  },
+  {
+    "week": 12,
+    "module": "proyecto",
+    "title": "Proyecto integrador",
+    "status": "upcoming",
+    "sessions": [
+      {
+        "title": "Conceptos y demostración",
+        "type": "class",
+        "topics": [
+          "Diseño",
+          "Implementación"
+        ]
+      },
+      {
+        "title": "Práctica guiada",
+        "type": "practice",
+        "topics": [
+          "Ejercicios progresivos",
+          "Casos de prueba"
+        ]
+      }
+    ],
+    "deliverables": [
+      {
+        "title": "Evidencia del módulo 12",
+        "platform": "Canvas"
+      }
+    ]
+  }
+]

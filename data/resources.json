@@ -1,24 +1,64 @@
 [
   {
+    "title": "El Libro de Python",
+    "subtitle": "Recurso web en español con explicaciones y ejemplos de Python.",
+    "type": "Sitio web",
+    "url": "https://ellibrodepython.com/",
+    "module": "general",
+    "external": true
+  },
+  {
+    "title": "Python Handbook",
+    "subtitle": "Flavio Copes · Guía compacta de fundamentos de Python.",
+    "type": "Libro PDF",
+    "url": "materials/books/Python-Handbook-Flavio-Copes.pdf",
+    "module": "general"
+  },
+  {
+    "title": "Programming with Python",
+    "subtitle": "Thomas Weise · Programación práctica y buenas prácticas de desarrollo.",
+    "type": "Libro PDF",
+    "url": "materials/books/Programming-with-Python-Thomas-Weise.pdf",
+    "module": "general"
+  },
+  {
+    "title": "Ultimate Python Programming Handbook",
+    "subtitle": "Harry Codes · Fundamentos, ejemplos y ejercicios para principiantes.",
+    "type": "Libro PDF",
+    "url": "materials/books/Ultimate-Python-Programming-Handbook.pdf",
+    "module": "general"
+  },
+  {
+    "title": "The Python Book, 2nd Edition",
+    "subtitle": "Imagine Publishing · Proyectos y panorama amplio de Python. Nota: parte del contenido usa Python 2.",
+    "type": "Libro complementario",
+    "url": "materials/books/The-Python-Book-2nd-Edition.pdf",
+    "module": "general"
+  },
+  {
     "title": "Casos de prueba",
+    "subtitle": "Material de apoyo para diseñar y validar soluciones.",
     "type": "PDF",
     "url": "materials/documents/Casos de Prueba.pdf",
     "module": "funciones"
   },
   {
     "title": "Convenciones de estilo en Python",
+    "subtitle": "Guía de legibilidad y estilo para el código del curso.",
     "type": "PDF",
     "url": "materials/documents/Convenciones de Estilo en Python.pdf",
     "module": "variables"
   },
   {
     "title": "Algoritmos: lectura",
+    "subtitle": "Lectura introductoria sobre algoritmos y solución de problemas.",
     "type": "PDF",
     "url": "materials/documents/algoritmos_lectura.pdf",
     "module": "algoritmos"
   },
   {
     "title": "Ejemplos y actividades del curso anterior",
+    "subtitle": "Colección de ejercicios reutilizados como apoyo.",
     "type": "Colección",
     "url": "materials/legacy/activities/",
     "module": "general"

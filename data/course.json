@@ -3,9 +3,15 @@
   "name": "Fundamentos de Programación",
   "period": "Agosto–Diciembre 2026",
   "campus": "Campus Querétaro",
+  "startDate": "2026-08-10",
+  "endDate": "2026-12-04",
+  "classSchedule": "Lunes y jueves · 10:00–11:30",
+  "advisingSchedule": "Miércoles y viernes · horario por definir",
   "instructor": {
     "name": "Dr. Leonardo Ledesma Domínguez",
-    "email": "leonardo.ledesma@tec.mx"
+    "label": "Profesor",
+    "email": "leonardo.ledesma@tec.mx",
+    "website": "https://leonardoled.github.io/"
   },
   "description": "Aprende a diseñar algoritmos, resolver problemas y construir programas utilizando Python.",
   "links": {
@@ -13,5 +19,6 @@
     "teams": "#",
     "github": "#"
   },
-  "currentWeek": 1
+  "totalWeeks": 17,
+  "tecWeeks": 2
 }

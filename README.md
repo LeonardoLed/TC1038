@@ -197,3 +197,22 @@ Tecnológico de Monterrey · Campus Querétaro
 ## Licencia
 
 Consulta el archivo `LICENSE` incluido en el repositorio.
+
+## Calendario AD2026
+
+- **Inicio del curso:** 10 de agosto de 2026.
+- **Fin del curso:** 4 de diciembre de 2026.
+- **Clases:** lunes y jueves, de 10:00 a 11:30.
+- **Asesorías:** miércoles y viernes; el horario está pendiente de definición.
+- **Semana TEC 1:** 14–18 de septiembre, sin clases.
+- **Semana TEC 2:** 26–30 de octubre, sin clases.
+- **Asueto:** lunes 16 de noviembre, sin clase.
+- **Duración:** 17 semanas, incluidas 2 Semanas TEC.
+
+Cada clase está registrada como una sesión numerada en `data/calendar.json`. La página determina automáticamente la semana actual a partir de la fecha del dispositivo y la destaca en el resumen del semestre y en el calendario detallado.
+
+## Libros y recursos incorporados
+
+Los libros PDF se encuentran en `materials/books/` y se muestran en la sección **Libros y recursos**. El sitio también enlaza a *El Libro de Python* como recurso web en español. Para añadir o retirar bibliografía, edita `data/resources.json`.
+
+> Nota: *The Python Book, 2nd Edition* se ofrece como material complementario, ya que parte de sus ejemplos utiliza Python 2. Para el curso se debe priorizar Python 3.

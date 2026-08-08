@@ -3,84 +3,127 @@
     "id": "algoritmos",
     "number": 1,
     "title": "Algoritmos y solución de problemas",
-    "description": "Diseño, pseudocódigo, diagramas de flujo y descomposición de problemas.",
+    "description": "Diseño, representación y descomposición de soluciones computacionales.",
     "topics": [
       "Algoritmos",
       "Pseudocódigo",
       "Diagramas de flujo"
     ],
-    "status": "current"
+    "activities": [
+      "actividad1-2.html",
+      "actividad1-3.html",
+      "actividad1-4.html",
+      "actividad1-5.html"
+    ],
+    "sessions": "Sesiones 1–2",
+    "page": "modules/modulo-01.html",
+    "status": "upcoming"
   },
   {
     "id": "variables",
     "number": 2,
-    "title": "Variables y cálculos",
-    "description": "Tipos de datos, operadores, expresiones, entrada y salida.",
+    "title": "Variables, tipos de datos y cálculos",
+    "description": "Variables, constantes, tipos de datos, operadores, expresiones, entrada y salida.",
     "topics": [
       "Variables",
       "Tipos de datos",
       "Operadores"
     ],
+    "activities": [
+      "actividad2-1.html",
+      "actividad2-2.html"
+    ],
+    "sessions": "Sesiones 3–4",
+    "page": "modules/modulo-02.html",
     "status": "upcoming"
   },
   {
     "id": "funciones",
     "number": 3,
-    "title": "Programación modular",
-    "description": "Funciones, parámetros, valores de retorno y casos de prueba.",
+    "title": "Programación modular y funciones",
+    "description": "Funciones, parámetros, valores de retorno, alcance y casos de prueba.",
     "topics": [
       "Funciones",
       "Parámetros",
       "Pruebas"
     ],
+    "activities": [
+      "actividad6-1.html",
+      "actividad6-2.html"
+    ],
+    "sessions": "Sesiones 5–6",
+    "page": "modules/modulo-03.html",
     "status": "upcoming"
   },
   {
     "id": "condicionales",
     "number": 4,
     "title": "Estructuras condicionales",
-    "description": "Decisiones simples, compuestas y anidadas.",
+    "description": "Decisiones simples, compuestas y anidadas mediante expresiones booleanas.",
     "topics": [
       "if",
       "elif",
       "else"
     ],
+    "activities": [
+      "actividad3-1.html",
+      "actividad3-2.html"
+    ],
+    "sessions": "Sesiones 7–8",
+    "page": "modules/modulo-04.html",
     "status": "upcoming"
   },
   {
     "id": "while",
     "number": 5,
     "title": "Ciclo while",
-    "description": "Repetición controlada por condición y validación de datos.",
+    "description": "Repetición controlada por condición, contadores, acumuladores y validación.",
     "topics": [
       "while",
       "Contadores",
       "Acumuladores"
     ],
+    "activities": [
+      "actividad7-2.html",
+      "actividad7-3.html"
+    ],
+    "sessions": "Sesiones 9–10",
+    "page": "modules/modulo-05.html",
     "status": "upcoming"
   },
   {
     "id": "for",
     "number": 6,
     "title": "Ciclo for",
-    "description": "Recorridos, rangos y patrones de repetición.",
+    "description": "Recorridos, range y patrones de repetición. La actividad de autoestudio de ciclos se comparte con el Tema 5.",
     "topics": [
       "for",
       "range",
       "Iteración"
     ],
+    "activities": [
+      "actividad7-2.html"
+    ],
+    "sessions": "Sesiones 11–12",
+    "page": "modules/modulo-06.html",
     "status": "upcoming"
   },
   {
     "id": "listas",
     "number": 7,
     "title": "Listas",
-    "description": "Creación, modificación, búsqueda y recorridos.",
+    "description": "Creación, modificación, búsqueda y recorridos de colecciones lineales.",
     "topics": [
       "Listas",
       "Métodos",
       "Recorridos"
     ],
+    "activities": [
+      "actividad10-1.html",
+      "actividad10-2.html"
+    ],
+    "sessions": "Sesiones 13–14",
+    "page": "modules/modulo-07.html",
     "status": "upcoming"
   },
   {
@@ -93,6 +136,12 @@
       "Índices",
       "Recorridos anidados"
     ],
+    "activities": [
+      "actividad12-2.html",
+      "actividad12-3.html"
+    ],
+    "sessions": "Sesiones 15–16",
+    "page": "modules/modulo-08.html",
     "status": "upcoming"
   },
   {
@@ -103,20 +152,31 @@
     "topics": [
       "Strings",
       "Métodos",
-      "Formato"
+      "Slicing"
     ],
+    "activities": [
+      "actividad11-2.html",
+      "actividad11-3.html"
+    ],
+    "sessions": "Sesiones 17–18",
+    "page": "modules/modulo-09.html",
     "status": "upcoming"
   },
   {
     "id": "bibliotecas",
     "number": 10,
     "title": "Bibliotecas y módulos",
-    "description": "Organización del código y reutilización de funciones.",
+    "description": "Reutilización de código mediante importación y uso de bibliotecas.",
     "topics": [
       "import",
       "Módulos",
       "Bibliotecas"
     ],
+    "activities": [
+      "actividad14-3.html"
+    ],
+    "sessions": "Sesiones 19–20",
+    "page": "modules/modulo-10.html",
     "status": "upcoming"
   },
   {
@@ -129,18 +189,44 @@
       "Lectura",
       "Escritura"
     ],
+    "activities": [
+      "actividad13-2.html",
+      "actividad13-3.html"
+    ],
+    "sessions": "Sesiones 21–22",
+    "page": "modules/modulo-11.html",
+    "status": "upcoming"
+  },
+  {
+    "id": "terminal-rutas",
+    "number": 12,
+    "title": "Terminal, rutas y organización de archivos",
+    "description": "Uso de terminal, rutas relativas/absolutas y organización de archivos del programa.",
+    "topics": [
+      "Terminal",
+      "Paths",
+      "Organización"
+    ],
+    "activities": [
+      "actividad15-3.html"
+    ],
+    "sessions": "Sesiones 23–24",
+    "page": "modules/modulo-12.html",
     "status": "upcoming"
   },
   {
     "id": "proyecto",
-    "number": 12,
+    "number": 13,
     "title": "Proyecto integrador",
-    "description": "Integración de algoritmos, estructuras y pruebas en una solución completa.",
+    "description": "Integración incremental de los temas del curso en una solución completa.",
     "topics": [
       "Diseño",
       "Implementación",
       "Presentación"
     ],
+    "activities": [],
+    "sessions": "Sesiones 25–29",
+    "page": "modules/modulo-13.html",
     "status": "upcoming"
   }
 ]

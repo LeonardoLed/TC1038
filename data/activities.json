@@ -1,0 +1,179 @@
+[
+  {
+    "file": "actividad1-2.html",
+    "title": "Introducción al curso",
+    "modules": [
+      1
+    ],
+    "url": "activities/base/actividad1-2.html"
+  },
+  {
+    "file": "actividad1-3.html",
+    "title": "Instalación del ambiente de programación",
+    "modules": [
+      1
+    ],
+    "url": "activities/base/actividad1-3.html"
+  },
+  {
+    "file": "actividad1-4.html",
+    "title": "Conociendo el ambiente de programación: Introducción",
+    "modules": [
+      1
+    ],
+    "url": "activities/base/actividad1-4.html"
+  },
+  {
+    "file": "actividad1-5.html",
+    "title": "Desarrollando algoritmos: Introducción",
+    "modules": [
+      1
+    ],
+    "url": "activities/base/actividad1-5.html"
+  },
+  {
+    "file": "actividad2-1.html",
+    "title": "Autoestudio sobre variables, tipos de datos y operadore",
+    "modules": [
+      2
+    ],
+    "url": "activities/base/actividad2-1.html"
+  },
+  {
+    "file": "actividad2-2.html",
+    "title": "Ejercicios sobre variables, constantes, tipos de datos y operadores",
+    "modules": [
+      2
+    ],
+    "url": "activities/base/actividad2-2.html"
+  },
+  {
+    "file": "actividad6-1.html",
+    "title": "Autoestudio sobre funciones y procedimientos",
+    "modules": [
+      3
+    ],
+    "url": "activities/base/actividad6-1.html"
+  },
+  {
+    "file": "actividad6-2.html",
+    "title": "Ejercicios sobre funciones",
+    "modules": [
+      3
+    ],
+    "url": "activities/base/actividad6-2.html"
+  },
+  {
+    "file": "actividad3-1.html",
+    "title": "Autoestudio sobre el uso de la estructura condicional if ",
+    "modules": [
+      4
+    ],
+    "url": "activities/base/actividad3-1.html"
+  },
+  {
+    "file": "actividad3-2.html",
+    "title": "Ejercicios sobre la estructura condicional if : Estatutos condicionales",
+    "modules": [
+      4
+    ],
+    "url": "activities/base/actividad3-2.html"
+  },
+  {
+    "file": "actividad7-2.html",
+    "title": "Autoestudio sobres Estatutos de repetición: sobre los ciclos for y while ",
+    "modules": [
+      5,
+      6
+    ],
+    "url": "activities/base/actividad7-2.html"
+  },
+  {
+    "file": "actividad7-3.html",
+    "title": "Ejercicios sobre el ciclo while : Estatutos de repetición",
+    "modules": [
+      5
+    ],
+    "url": "activities/base/actividad7-3.html"
+  },
+  {
+    "file": "actividad10-1.html",
+    "title": "Autoestudio sobre listas o arreglos",
+    "modules": [
+      7
+    ],
+    "url": "activities/base/actividad10-1.html"
+  },
+  {
+    "file": "actividad10-2.html",
+    "title": "Ejercicios sobre listas",
+    "modules": [
+      7
+    ],
+    "url": "activities/base/actividad10-2.html"
+  },
+  {
+    "file": "actividad12-2.html",
+    "title": "Autoestudio sobre matrices: Arreglos",
+    "modules": [
+      8
+    ],
+    "url": "activities/base/actividad12-2.html"
+  },
+  {
+    "file": "actividad12-3.html",
+    "title": "Ejercicios sobre listas anidadas/matrices",
+    "modules": [
+      8
+    ],
+    "url": "activities/base/actividad12-3.html"
+  },
+  {
+    "file": "actividad11-2.html",
+    "title": "Autoestudio sobre cadenas",
+    "modules": [
+      9
+    ],
+    "url": "activities/base/actividad11-2.html"
+  },
+  {
+    "file": "actividad11-3.html",
+    "title": "Ejercicios sobre cadenas",
+    "modules": [
+      9
+    ],
+    "url": "activities/base/actividad11-3.html"
+  },
+  {
+    "file": "actividad14-3.html",
+    "title": "Uso de bibliotecas",
+    "modules": [
+      10
+    ],
+    "url": "activities/base/actividad14-3.html"
+  },
+  {
+    "file": "actividad13-2.html",
+    "title": "Autoestudio sobre archivos de texto",
+    "modules": [
+      11
+    ],
+    "url": "activities/base/actividad13-2.html"
+  },
+  {
+    "file": "actividad13-3.html",
+    "title": "Ejercicios sobre archivos",
+    "modules": [
+      11
+    ],
+    "url": "activities/base/actividad13-3.html"
+  },
+  {
+    "file": "actividad15-3.html",
+    "title": "Uso de rutas (paths)",
+    "modules": [
+      12
+    ],
+    "url": "activities/base/actividad15-3.html"
+  }
+]

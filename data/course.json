@@ -6,7 +6,8 @@
   "startDate": "2026-08-10",
   "endDate": "2026-12-04",
   "classSchedule": "Lunes y jueves · 10:00–11:30",
-  "advisingSchedule": "Miércoles y viernes · horario por definir",
+  "advisingSchedule": "Miércoles y viernes · horario de asesores (previa cita)",
+  "labSchedule": "Martes de 14:05 a 14:55 ó viernes de 15:05 a 15:55",
   "instructor": {
     "name": "Dr. Leonardo Ledesma Domínguez",
     "label": "Profesor",

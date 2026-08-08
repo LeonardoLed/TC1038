@@ -1,18 +1,22 @@
 [
   {
-    "name": "Actividades y prácticas",
+    "name": "Exámenes Modulares (de avance)",
+    "weight": 15
+  },
+  {
+    "name": "Examen Final Integrador",
     "weight": 30
   },
   {
-    "name": "Evaluaciones individuales",
-    "weight": 30
+    "name": "Tareas y Actividades",
+    "weight": 10
   },
   {
-    "name": "Proyecto integrador",
-    "weight": 30
+    "name": "Proyecto",
+    "weight": 35
   },
   {
-    "name": "Participación y autoestudios",
+    "name": "Laboratorio",
     "weight": 10
   }
 ]

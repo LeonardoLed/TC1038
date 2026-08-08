@@ -3,7 +3,7 @@
     "week": 1,
     "startDate": "2026-08-10",
     "endDate": "2026-08-14",
-    "title": "Introducción, algoritmos y entorno de trabajo",
+    "title": "Tema 1 · Algoritmos y solución de problemas",
     "kind": "academic",
     "sessions": [
       {
@@ -13,7 +13,13 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 1",
-        "topic": "Presentación del curso"
+        "topic": "Introducción al curso y solución de problemas",
+        "module": 1,
+        "page": "sessions/sesion-01.html",
+        "activities": [
+          "actividad1-2.html",
+          "actividad1-5.html"
+        ]
       },
       {
         "number": 2,
@@ -22,7 +28,14 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 2",
-        "topic": "Pensamiento algorítmico"
+        "topic": "Representación de algoritmos y ambiente de programación",
+        "module": 1,
+        "page": "sessions/sesion-02.html",
+        "activities": [
+          "actividad1-3.html",
+          "actividad1-4.html",
+          "actividad1-5.html"
+        ]
       }
     ]
   },
@@ -30,7 +43,7 @@
     "week": 2,
     "startDate": "2026-08-17",
     "endDate": "2026-08-21",
-    "title": "Variables, tipos de datos y expresiones",
+    "title": "Tema 2 · Variables, tipos de datos y cálculos",
     "kind": "academic",
     "sessions": [
       {
@@ -40,7 +53,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 3",
-        "topic": "Variables y asignación"
+        "topic": "Variables, constantes y tipos de datos",
+        "module": 2,
+        "page": "sessions/sesion-03.html",
+        "activities": [
+          "actividad2-1.html"
+        ]
       },
       {
         "number": 4,
@@ -49,7 +67,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 4",
-        "topic": "Tipos de datos"
+        "topic": "Operadores, expresiones, entrada y salida",
+        "module": 2,
+        "page": "sessions/sesion-04.html",
+        "activities": [
+          "actividad2-2.html"
+        ]
       }
     ]
   },
@@ -57,7 +80,7 @@
     "week": 3,
     "startDate": "2026-08-24",
     "endDate": "2026-08-28",
-    "title": "Funciones y descomposición de problemas",
+    "title": "Tema 3 · Programación modular y funciones",
     "kind": "academic",
     "sessions": [
       {
@@ -67,7 +90,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 5",
-        "topic": "Definición de funciones"
+        "topic": "Definición de funciones, parámetros y alcance",
+        "module": 3,
+        "page": "sessions/sesion-05.html",
+        "activities": [
+          "actividad6-1.html"
+        ]
       },
       {
         "number": 6,
@@ -76,7 +104,16 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 6",
-        "topic": "Parámetros y retorno"
+        "topic": "Funciones, valores de retorno y casos de prueba",
+        "module": 3,
+        "page": "sessions/sesion-06.html",
+        "activities": [
+          "actividad6-2.html"
+        ],
+        "exam": {
+          "name": "Examen Avance 1",
+          "coverage": "Temas 1, 2 y 3"
+        }
       }
     ]
   },
@@ -84,7 +121,7 @@
     "week": 4,
     "startDate": "2026-08-31",
     "endDate": "2026-09-04",
-    "title": "Estructuras condicionales",
+    "title": "Tema 4 · Estructuras condicionales",
     "kind": "academic",
     "sessions": [
       {
@@ -94,7 +131,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 7",
-        "topic": "Expresiones booleanas"
+        "topic": "Expresiones booleanas y estructura if",
+        "module": 4,
+        "page": "sessions/sesion-07.html",
+        "activities": [
+          "actividad3-1.html"
+        ]
       },
       {
         "number": 8,
@@ -103,7 +145,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 8",
-        "topic": "if, elif y else"
+        "topic": "if, elif, else y condicionales anidados",
+        "module": 4,
+        "page": "sessions/sesion-08.html",
+        "activities": [
+          "actividad3-2.html"
+        ]
       }
     ]
   },
@@ -111,7 +158,7 @@
     "week": 5,
     "startDate": "2026-09-07",
     "endDate": "2026-09-11",
-    "title": "Ciclo while",
+    "title": "Tema 5 · Ciclo while",
     "kind": "academic",
     "sessions": [
       {
@@ -121,7 +168,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 9",
-        "topic": "Repetición por condición"
+        "topic": "Repetición controlada por condición",
+        "module": 5,
+        "page": "sessions/sesion-09.html",
+        "activities": [
+          "actividad7-2.html"
+        ]
       },
       {
         "number": 10,
@@ -130,7 +182,16 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 10",
-        "topic": "Contadores y acumuladores"
+        "topic": "while, contadores, acumuladores y validación",
+        "module": 5,
+        "page": "sessions/sesion-10.html",
+        "activities": [
+          "actividad7-3.html"
+        ],
+        "exam": {
+          "name": "Examen Avance 2",
+          "coverage": "Temas 4 y 5"
+        }
       }
     ]
   },
@@ -147,7 +208,7 @@
     "week": 7,
     "startDate": "2026-09-21",
     "endDate": "2026-09-25",
-    "title": "Ciclo for y patrones de repetición",
+    "title": "Tema 6 · Ciclo for",
     "kind": "academic",
     "sessions": [
       {
@@ -157,7 +218,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 11",
-        "topic": "for y range"
+        "topic": "Ciclo for y función range",
+        "module": 6,
+        "page": "sessions/sesion-11.html",
+        "activities": [
+          "actividad7-2.html"
+        ]
       },
       {
         "number": 12,
@@ -166,7 +232,9 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 12",
-        "topic": "Recorridos"
+        "topic": "Recorridos, iteración y patrones con for",
+        "module": 6,
+        "page": "sessions/sesion-12.html"
       }
     ]
   },
@@ -174,7 +242,7 @@
     "week": 8,
     "startDate": "2026-09-28",
     "endDate": "2026-10-02",
-    "title": "Listas",
+    "title": "Tema 7 · Listas",
     "kind": "academic",
     "sessions": [
       {
@@ -184,7 +252,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 13",
-        "topic": "Creación e indexación"
+        "topic": "Creación, índices y recorridos de listas",
+        "module": 7,
+        "page": "sessions/sesion-13.html",
+        "activities": [
+          "actividad10-1.html"
+        ]
       },
       {
         "number": 14,
@@ -193,7 +266,16 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 14",
-        "topic": "Métodos de listas"
+        "topic": "Métodos, búsqueda y modificación de listas",
+        "module": 7,
+        "page": "sessions/sesion-14.html",
+        "activities": [
+          "actividad10-2.html"
+        ],
+        "exam": {
+          "name": "Examen Avance 3",
+          "coverage": "Temas 6 y 7"
+        }
       }
     ]
   },
@@ -201,7 +283,7 @@
     "week": 9,
     "startDate": "2026-10-05",
     "endDate": "2026-10-09",
-    "title": "Listas anidadas y matrices",
+    "title": "Tema 8 · Listas anidadas y matrices",
     "kind": "academic",
     "sessions": [
       {
@@ -211,7 +293,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 15",
-        "topic": "Representación bidimensional"
+        "topic": "Representación bidimensional y listas anidadas",
+        "module": 8,
+        "page": "sessions/sesion-15.html",
+        "activities": [
+          "actividad12-2.html"
+        ]
       },
       {
         "number": 16,
@@ -220,7 +307,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 16",
-        "topic": "Recorridos por filas y columnas"
+        "topic": "Recorridos por filas y columnas",
+        "module": 8,
+        "page": "sessions/sesion-16.html",
+        "activities": [
+          "actividad12-3.html"
+        ]
       }
     ]
   },
@@ -228,7 +320,7 @@
     "week": 10,
     "startDate": "2026-10-12",
     "endDate": "2026-10-16",
-    "title": "Cadenas de caracteres",
+    "title": "Tema 9 · Cadenas de caracteres",
     "kind": "academic",
     "sessions": [
       {
@@ -238,7 +330,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 17",
-        "topic": "Indexación y slicing"
+        "topic": "Indexación, slicing y recorrido de cadenas",
+        "module": 9,
+        "page": "sessions/sesion-17.html",
+        "activities": [
+          "actividad11-2.html"
+        ]
       },
       {
         "number": 18,
@@ -247,7 +344,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 18",
-        "topic": "Métodos de cadenas"
+        "topic": "Métodos y transformación de cadenas",
+        "module": 9,
+        "page": "sessions/sesion-18.html",
+        "activities": [
+          "actividad11-3.html"
+        ]
       }
     ]
   },
@@ -255,7 +357,7 @@
     "week": 11,
     "startDate": "2026-10-19",
     "endDate": "2026-10-23",
-    "title": "Bibliotecas y módulos",
+    "title": "Tema 10 · Bibliotecas y módulos",
     "kind": "academic",
     "sessions": [
       {
@@ -265,7 +367,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 19",
-        "topic": "Importación de módulos"
+        "topic": "Importación y uso de módulos",
+        "module": 10,
+        "page": "sessions/sesion-19.html",
+        "activities": [
+          "actividad14-3.html"
+        ]
       },
       {
         "number": 20,
@@ -274,7 +381,16 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 20",
-        "topic": "Funciones de biblioteca"
+        "topic": "Bibliotecas, reutilización y organización del código",
+        "module": 10,
+        "page": "sessions/sesion-20.html",
+        "activities": [
+          "actividad14-3.html"
+        ],
+        "exam": {
+          "name": "Examen Avance 4",
+          "coverage": "Temas 8, 9 y 10"
+        }
       }
     ]
   },
@@ -291,7 +407,7 @@
     "week": 13,
     "startDate": "2026-11-02",
     "endDate": "2026-11-06",
-    "title": "Archivos de texto",
+    "title": "Tema 11 · Archivos de texto",
     "kind": "academic",
     "sessions": [
       {
@@ -301,7 +417,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 21",
-        "topic": "Apertura y cierre"
+        "topic": "Apertura, lectura y cierre de archivos",
+        "module": 11,
+        "page": "sessions/sesion-21.html",
+        "activities": [
+          "actividad13-2.html"
+        ]
       },
       {
         "number": 22,
@@ -310,7 +431,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 22",
-        "topic": "Lectura de datos"
+        "topic": "Escritura, procesamiento y persistencia",
+        "module": 11,
+        "page": "sessions/sesion-22.html",
+        "activities": [
+          "actividad13-3.html"
+        ]
       }
     ]
   },
@@ -318,7 +444,7 @@
     "week": 14,
     "startDate": "2026-11-09",
     "endDate": "2026-11-13",
-    "title": "Integración y manejo de datos",
+    "title": "Tema 12 · Terminal, rutas y organización de archivos",
     "kind": "academic",
     "sessions": [
       {
@@ -328,7 +454,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 23",
-        "topic": "Integración de estructuras"
+        "topic": "Terminal y sistema de archivos",
+        "module": 12,
+        "page": "sessions/sesion-23.html",
+        "activities": [
+          "actividad15-3.html"
+        ]
       },
       {
         "number": 24,
@@ -337,7 +468,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 24",
-        "topic": "Depuración"
+        "topic": "Rutas relativas, absolutas y organización del proyecto",
+        "module": 12,
+        "page": "sessions/sesion-24.html",
+        "activities": [
+          "actividad15-3.html"
+        ]
       }
     ]
   },
@@ -345,7 +481,7 @@
     "week": 15,
     "startDate": "2026-11-16",
     "endDate": "2026-11-20",
-    "title": "Proyecto integrador: desarrollo",
+    "title": "Tema 13 · Proyecto integrador: desarrollo",
     "kind": "academic",
     "sessions": [
       {
@@ -363,7 +499,13 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 25",
-        "topic": "Implementación incremental"
+        "topic": "Integración incremental del proyecto",
+        "module": 13,
+        "page": "sessions/sesion-25.html",
+        "project": [
+          "avance-08",
+          "avance-09"
+        ]
       }
     ]
   },
@@ -371,7 +513,7 @@
     "week": 16,
     "startDate": "2026-11-23",
     "endDate": "2026-11-27",
-    "title": "Proyecto integrador: consolidación",
+    "title": "Tema 13 · Proyecto integrador: consolidación",
     "kind": "academic",
     "sessions": [
       {
@@ -381,7 +523,12 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 26",
-        "topic": "Integración"
+        "topic": "Integración, pruebas y correcciones",
+        "module": 13,
+        "page": "sessions/sesion-26.html",
+        "project": [
+          "avance-09"
+        ]
       },
       {
         "number": 27,
@@ -390,7 +537,9 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 27",
-        "topic": "Documentación"
+        "topic": "Documentación y revisión final del proyecto",
+        "module": 13,
+        "page": "sessions/sesion-27.html"
       }
     ]
   },
@@ -398,7 +547,7 @@
     "week": 17,
     "startDate": "2026-11-30",
     "endDate": "2026-12-04",
-    "title": "Cierre y presentación del proyecto",
+    "title": "Cierre del semestre",
     "kind": "academic",
     "sessions": [
       {
@@ -408,7 +557,13 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 28",
-        "topic": "Presentaciones finales"
+        "topic": "Examen Final Integrador",
+        "module": 13,
+        "page": "sessions/sesion-28.html",
+        "exam": {
+          "name": "Examen Final Integrador",
+          "coverage": "Integración de los contenidos del curso"
+        }
       },
       {
         "number": 29,
@@ -417,7 +572,9 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 29",
-        "topic": "Retroalimentación"
+        "topic": "Presentación, retroalimentación y cierre del curso",
+        "module": 13,
+        "page": "sessions/sesion-29.html"
       }
     ]
   }

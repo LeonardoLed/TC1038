@@ -2,28 +2,57 @@
   "stages": [
     {
       "number": 1,
-      "title": "Identificación del problema",
-      "description": "Define usuarios, necesidad, entradas y salidas."
+      "title": "Selección del proyecto",
+      "description": "Tema, contexto, algoritmo inicial y repositorio.",
+      "page": "project/avance-01.html"
     },
     {
       "number": 2,
-      "title": "Diseño de la solución",
-      "description": "Construye algoritmos, funciones y casos de prueba."
+      "title": "Operadores y cálculos",
+      "description": "Incorpora operadores y cálculos al problema elegido.",
+      "page": "project/avance-02.html"
     },
     {
       "number": 3,
-      "title": "Estructuras de datos",
-      "description": "Integra listas, matrices y cadenas."
+      "title": "Funciones",
+      "description": "Modulariza la solución mediante funciones.",
+      "page": "project/avance-03.html"
     },
     {
       "number": 4,
-      "title": "Persistencia e integración",
-      "description": "Agrega archivos y consolida el programa."
+      "title": "Decisiones",
+      "description": "Integra estructuras condicionales.",
+      "page": "project/avance-04.html"
     },
     {
       "number": 5,
-      "title": "Entrega final",
-      "description": "Presenta código, documentación, pruebas y demostración."
+      "title": "Repetición",
+      "description": "Integra ciclos y procesos repetitivos.",
+      "page": "project/avance-05.html"
+    },
+    {
+      "number": 6,
+      "title": "Listas",
+      "description": "Incorpora listas para colecciones de datos.",
+      "page": "project/avance-06.html"
+    },
+    {
+      "number": 7,
+      "title": "Matrices",
+      "description": "Incorpora listas anidadas o matrices.",
+      "page": "project/avance-07.html"
+    },
+    {
+      "number": 8,
+      "title": "Cadenas",
+      "description": "Integra procesamiento de texto.",
+      "page": "project/avance-08.html"
+    },
+    {
+      "number": 9,
+      "title": "Archivos y cierre",
+      "description": "Agrega persistencia, corrige e integra la entrega final.",
+      "page": "project/avance-09.html"
     }
   ]
 }

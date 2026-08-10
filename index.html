@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="TC1038 Fundamentos de Programación · Agosto–Diciembre 2026">
   <title>TC1038 · Fundamentos de Programación</title>
+  <script>
+    // Activa la vista embebida antes del primer render para evitar parpadeos en Canvas.
+    if (new URLSearchParams(window.location.search).get('embed') === '1') {
+      document.documentElement.classList.add('embed-mode');
+    }
+  </script>
   <link rel="stylesheet" href="assets/css/variables.css">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>

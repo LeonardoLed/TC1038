@@ -8,3 +8,31 @@
 .stage-link{color:white;text-decoration:none;transition:.2s}.stage-link:hover{transform:translateY(-3px);background:#ffffff18;border-color:#72d2f7}.stage-link strong{font-size:.75rem;color:#72d2f7}.project-stages{grid-template-columns:repeat(3,1fr)}@media(max-width:1000px){.project-stages{grid-template-columns:repeat(2,1fr)}}@media(max-width:760px){.project-stages{grid-template-columns:1fr}}
 
 .project-pill{display:inline-block;margin-top:8px;margin-left:6px;padding:6px 9px;border-radius:8px;background:#eaf4fb;color:#005eb8!important;border:1px solid #b9d9ee;font-size:.68rem!important;font-weight:800}
+
+
+/* ============================================================
+   Canvas / LMS embed mode
+   Uso: index.html?embed=1#modulos
+   Mantiene el sitio público intacto y muestra solo la sección
+   solicitada dentro del iframe de Canvas.
+   ============================================================ */
+html.embed-mode { scroll-behavior:auto; }
+html.embed-mode body { margin:0; background:var(--gray-50); }
+html.embed-mode .sidebar,
+html.embed-mode .mobile-header,
+html.embed-mode main > footer { display:none !important; }
+html.embed-mode main { margin-left:0 !important; width:100%; }
+/* Se oculta todo hasta que app.js identifica el hash solicitado. */
+html.embed-mode main > .section { display:none !important; }
+html.embed-mode main > .section.embed-target { display:block !important; }
+html.embed-mode main > .section.embed-target {
+  min-height:0;
+  margin:0;
+  padding:34px clamp(18px,4vw,56px);
+  scroll-margin-top:0;
+}
+html.embed-mode main > .section.embed-target .section-head { margin-top:0; }
+html.embed-mode main > .section.embed-target:first-child { padding-top:34px; }
+@media(max-width:760px){
+  html.embed-mode main > .section.embed-target { padding:24px 16px; }
+}

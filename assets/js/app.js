@@ -18,3 +18,24 @@ function renderEvaluation(items){$('#evaluationGrid').innerHTML=items.map(i=>`<a
 function renderResources(items){$('#resourceGrid').innerHTML=items.map(r=>{const blank=r.external||/\.pdf($|\?)/i.test(r.url);return `<a class="resource" href="${r.url}" ${blank?'target="_blank" rel="noopener"':''}><div><strong>${r.title}</strong><small>${r.subtitle||r.module}</small></div><span class="tag">${r.type}</span></a>`}).join('')}
 async function init(){try{const [calendar,modules,project,evaluation,resources]=await Promise.all(['calendar','modules','project','evaluation','resources'].map(load));renderStrip(calendar);renderCalendar(calendar);renderCurrent(calendar);renderModules(modules);renderProject(project);renderEvaluation(evaluation);renderResources(resources);$$('.filters button').forEach(b=>b.onclick=()=>{$$('.filters button').forEach(x=>x.classList.remove('active'));b.classList.add('active');renderCalendar(calendar,b.dataset.filter)})}catch(e){console.error('No fue posible cargar los datos.',e)}}
 $('#menuButton').onclick=()=>$('.sidebar').classList.toggle('open');$('#themeButton').onclick=()=>{const dark=document.documentElement.dataset.theme==='dark';document.documentElement.dataset.theme=dark?'light':'dark';localStorage.setItem('theme',dark?'light':'dark')};document.documentElement.dataset.theme=localStorage.getItem('theme')||'light';$$('#nav a').forEach(a=>a.onclick=()=>{$$('#nav a').forEach(x=>x.classList.remove('active'));a.classList.add('active');$('.sidebar').classList.remove('open')});init();
+
+
+// --- Canvas / LMS embed mode ---------------------------------
+const EMBED_SECTIONS = ['inicio','calendario','modulos','actividades','proyecto','evaluacion','recursos'];
+function getEmbedSection(){
+  const requested = window.location.hash.replace('#','').trim().toLowerCase();
+  return EMBED_SECTIONS.includes(requested) ? requested : 'modulos';
+}
+function applyEmbedMode(){
+  const enabled = new URLSearchParams(window.location.search).get('embed') === '1';
+  if(!enabled) return;
+  document.documentElement.classList.add('embed-mode');
+  const targetId = getEmbedSection();
+  document.documentElement.dataset.embedSection = targetId;
+  $$('main > .section').forEach(section => section.classList.toggle('embed-target', section.id === targetId));
+  // El target queda físicamente al inicio del documento visible; no dependemos
+  // del scroll al anchor, que algunos LMS/iframes pueden restablecer.
+  requestAnimationFrame(() => window.scrollTo({top:0,left:0,behavior:'auto'}));
+}
+applyEmbedMode();
+window.addEventListener('hashchange', applyEmbedMode);

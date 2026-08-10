@@ -152,3 +152,19 @@ Cada sesión tiene una página desagregada con: preparación previa, trabajo dur
 La Sesión 1 es exclusivamente **Presentación y encuadre del curso**. El Tema 1 comienza formalmente en la Sesión 2.
 
 Los bloques de código permiten copiar su contenido desde la interfaz y los retos se encuentran en `activities/challenges/`.
+
+
+## Modo embed para Canvas LMS
+
+La página principal admite una vista independiente para incrustarse en Canvas sin alterar el sitio público.
+
+```text
+index.html?embed=1#calendario
+index.html?embed=1#modulos
+index.html?embed=1#actividades
+index.html?embed=1#proyecto
+index.html?embed=1#evaluacion
+index.html?embed=1#recursos
+```
+
+En modo `embed=1` se ocultan la navegación lateral, la cabecera móvil, el footer y las demás secciones; solo se renderiza la sección indicada por el fragmento (`#...`). Si el fragmento no es válido, se muestra `#modulos`. El sitio sin `?embed=1` conserva su comportamiento normal.

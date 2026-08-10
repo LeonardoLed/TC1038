@@ -139,3 +139,8 @@ Los PDF de bibliografía se encuentran en `materials/books/`. También se incluy
 ---
 
 Tecnológico de Monterrey · Campus Querétaro
+
+## Ruta pedagógica por sesión
+
+Cada subpágina de sesión está organizada en tres momentos: **Previo a la sesión**, **Durante la sesión** e **Implementa en tu proyecto**. Las actividades base se etiquetan explícitamente con el módulo al que pertenecen. El calendario enlaza cada sesión y muestra, cuando aplica, el avance del proyecto relacionado. Los avances del proyecto enlazan de regreso a los módulos que los alimentan.
+

@@ -19,7 +19,17 @@
         "activities": [
           "actividad1-2.html",
           "actividad1-5.html"
-        ]
+        ],
+        "projectAdvances": [
+          1
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": [
+            "actividad1-2.html",
+            "actividad1-5.html"
+          ]
+        }
       },
       {
         "number": 2,
@@ -35,7 +45,18 @@
           "actividad1-3.html",
           "actividad1-4.html",
           "actividad1-5.html"
-        ]
+        ],
+        "projectAdvances": [
+          1
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": [
+            "actividad1-3.html",
+            "actividad1-4.html",
+            "actividad1-5.html"
+          ]
+        }
       }
     ]
   },
@@ -58,7 +79,16 @@
         "page": "sessions/sesion-03.html",
         "activities": [
           "actividad2-1.html"
-        ]
+        ],
+        "projectAdvances": [
+          2
+        ],
+        "learningFlow": {
+          "before": [
+            "actividad2-1.html"
+          ],
+          "during": []
+        }
       },
       {
         "number": 4,
@@ -72,7 +102,16 @@
         "page": "sessions/sesion-04.html",
         "activities": [
           "actividad2-2.html"
-        ]
+        ],
+        "projectAdvances": [
+          2
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": [
+            "actividad2-2.html"
+          ]
+        }
       }
     ]
   },
@@ -95,7 +134,16 @@
         "page": "sessions/sesion-05.html",
         "activities": [
           "actividad6-1.html"
-        ]
+        ],
+        "projectAdvances": [
+          3
+        ],
+        "learningFlow": {
+          "before": [
+            "actividad6-1.html"
+          ],
+          "during": []
+        }
       },
       {
         "number": 6,
@@ -113,6 +161,15 @@
         "exam": {
           "name": "Examen Avance 1",
           "coverage": "Temas 1, 2 y 3"
+        },
+        "projectAdvances": [
+          3
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": [
+            "actividad6-2.html"
+          ]
         }
       }
     ]
@@ -136,7 +193,16 @@
         "page": "sessions/sesion-07.html",
         "activities": [
           "actividad3-1.html"
-        ]
+        ],
+        "projectAdvances": [
+          4
+        ],
+        "learningFlow": {
+          "before": [
+            "actividad3-1.html"
+          ],
+          "during": []
+        }
       },
       {
         "number": 8,
@@ -150,7 +216,16 @@
         "page": "sessions/sesion-08.html",
         "activities": [
           "actividad3-2.html"
-        ]
+        ],
+        "projectAdvances": [
+          4
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": [
+            "actividad3-2.html"
+          ]
+        }
       }
     ]
   },
@@ -173,7 +248,16 @@
         "page": "sessions/sesion-09.html",
         "activities": [
           "actividad7-2.html"
-        ]
+        ],
+        "projectAdvances": [
+          5
+        ],
+        "learningFlow": {
+          "before": [
+            "actividad7-2.html"
+          ],
+          "during": []
+        }
       },
       {
         "number": 10,
@@ -191,6 +275,15 @@
         "exam": {
           "name": "Examen Avance 2",
           "coverage": "Temas 4 y 5"
+        },
+        "projectAdvances": [
+          5
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": [
+            "actividad7-3.html"
+          ]
         }
       }
     ]
@@ -223,7 +316,16 @@
         "page": "sessions/sesion-11.html",
         "activities": [
           "actividad7-2.html"
-        ]
+        ],
+        "projectAdvances": [
+          5
+        ],
+        "learningFlow": {
+          "before": [
+            "actividad7-2.html"
+          ],
+          "during": []
+        }
       },
       {
         "number": 12,
@@ -234,7 +336,14 @@
         "label": "Sesión 12",
         "topic": "Recorridos, iteración y patrones con for",
         "module": 6,
-        "page": "sessions/sesion-12.html"
+        "page": "sessions/sesion-12.html",
+        "projectAdvances": [
+          5
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": []
+        }
       }
     ]
   },
@@ -257,7 +366,16 @@
         "page": "sessions/sesion-13.html",
         "activities": [
           "actividad10-1.html"
-        ]
+        ],
+        "projectAdvances": [
+          6
+        ],
+        "learningFlow": {
+          "before": [
+            "actividad10-1.html"
+          ],
+          "during": []
+        }
       },
       {
         "number": 14,
@@ -275,6 +393,15 @@
         "exam": {
           "name": "Examen Avance 3",
           "coverage": "Temas 6 y 7"
+        },
+        "projectAdvances": [
+          6
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": [
+            "actividad10-2.html"
+          ]
         }
       }
     ]
@@ -298,7 +425,16 @@
         "page": "sessions/sesion-15.html",
         "activities": [
           "actividad12-2.html"
-        ]
+        ],
+        "projectAdvances": [
+          7
+        ],
+        "learningFlow": {
+          "before": [
+            "actividad12-2.html"
+          ],
+          "during": []
+        }
       },
       {
         "number": 16,
@@ -312,7 +448,16 @@
         "page": "sessions/sesion-16.html",
         "activities": [
           "actividad12-3.html"
-        ]
+        ],
+        "projectAdvances": [
+          7
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": [
+            "actividad12-3.html"
+          ]
+        }
       }
     ]
   },
@@ -335,7 +480,16 @@
         "page": "sessions/sesion-17.html",
         "activities": [
           "actividad11-2.html"
-        ]
+        ],
+        "projectAdvances": [
+          8
+        ],
+        "learningFlow": {
+          "before": [
+            "actividad11-2.html"
+          ],
+          "during": []
+        }
       },
       {
         "number": 18,
@@ -349,7 +503,16 @@
         "page": "sessions/sesion-18.html",
         "activities": [
           "actividad11-3.html"
-        ]
+        ],
+        "projectAdvances": [
+          8
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": [
+            "actividad11-3.html"
+          ]
+        }
       }
     ]
   },
@@ -372,7 +535,14 @@
         "page": "sessions/sesion-19.html",
         "activities": [
           "actividad14-3.html"
-        ]
+        ],
+        "projectAdvances": [],
+        "learningFlow": {
+          "before": [],
+          "during": [
+            "actividad14-3.html"
+          ]
+        }
       },
       {
         "number": 20,
@@ -390,6 +560,13 @@
         "exam": {
           "name": "Examen Avance 4",
           "coverage": "Temas 8, 9 y 10"
+        },
+        "projectAdvances": [],
+        "learningFlow": {
+          "before": [],
+          "during": [
+            "actividad14-3.html"
+          ]
         }
       }
     ]
@@ -422,7 +599,16 @@
         "page": "sessions/sesion-21.html",
         "activities": [
           "actividad13-2.html"
-        ]
+        ],
+        "projectAdvances": [
+          9
+        ],
+        "learningFlow": {
+          "before": [
+            "actividad13-2.html"
+          ],
+          "during": []
+        }
       },
       {
         "number": 22,
@@ -436,7 +622,16 @@
         "page": "sessions/sesion-22.html",
         "activities": [
           "actividad13-3.html"
-        ]
+        ],
+        "projectAdvances": [
+          9
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": [
+            "actividad13-3.html"
+          ]
+        }
       }
     ]
   },
@@ -459,7 +654,16 @@
         "page": "sessions/sesion-23.html",
         "activities": [
           "actividad15-3.html"
-        ]
+        ],
+        "projectAdvances": [
+          9
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": [
+            "actividad15-3.html"
+          ]
+        }
       },
       {
         "number": 24,
@@ -473,7 +677,16 @@
         "page": "sessions/sesion-24.html",
         "activities": [
           "actividad15-3.html"
-        ]
+        ],
+        "projectAdvances": [
+          9
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": [
+            "actividad15-3.html"
+          ]
+        }
       }
     ]
   },
@@ -505,7 +718,15 @@
         "project": [
           "avance-08",
           "avance-09"
-        ]
+        ],
+        "projectAdvances": [
+          8,
+          9
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": []
+        }
       }
     ]
   },
@@ -528,7 +749,14 @@
         "page": "sessions/sesion-26.html",
         "project": [
           "avance-09"
-        ]
+        ],
+        "projectAdvances": [
+          9
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": []
+        }
       },
       {
         "number": 27,
@@ -539,7 +767,14 @@
         "label": "Sesión 27",
         "topic": "Documentación y revisión final del proyecto",
         "module": 13,
-        "page": "sessions/sesion-27.html"
+        "page": "sessions/sesion-27.html",
+        "projectAdvances": [
+          9
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": []
+        }
       }
     ]
   },
@@ -563,6 +798,13 @@
         "exam": {
           "name": "Examen Final Integrador",
           "coverage": "Integración de los contenidos del curso"
+        },
+        "projectAdvances": [
+          9
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": []
         }
       },
       {
@@ -574,7 +816,14 @@
         "label": "Sesión 29",
         "topic": "Presentación, retroalimentación y cierre del curso",
         "module": 13,
-        "page": "sessions/sesion-29.html"
+        "page": "sessions/sesion-29.html",
+        "projectAdvances": [
+          9
+        ],
+        "learningFlow": {
+          "before": [],
+          "during": []
+        }
       }
     ]
   }

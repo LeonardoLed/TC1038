@@ -144,3 +144,11 @@ Tecnológico de Monterrey · Campus Querétaro
 
 Cada subpágina de sesión está organizada en tres momentos: **Previo a la sesión**, **Durante la sesión** e **Implementa en tu proyecto**. Las actividades base se etiquetan explícitamente con el módulo al que pertenecen. El calendario enlaza cada sesión y muestra, cuando aplica, el avance del proyecto relacionado. Los avances del proyecto enlazan de regreso a los módulos que los alimentan.
 
+
+## Diseño de páginas de sesión
+
+Cada sesión tiene una página desagregada con: preparación previa, trabajo durante la clase, vínculo con el proyecto, pseudocódigo con estilo propio, ejemplo o punto de partida en Python, casos de prueba y checklist de aprendizaje. Los retos nuevos complementan las actividades base en una distribución aproximada 50/50.
+
+La Sesión 1 es exclusivamente **Presentación y encuadre del curso**. El Tema 1 comienza formalmente en la Sesión 2.
+
+Los bloques de código permiten copiar su contenido desde la interfaz y los retos se encuentran en `activities/challenges/`.

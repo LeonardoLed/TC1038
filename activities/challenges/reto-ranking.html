@@ -1,0 +1,21 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Reto · Ranking de puntajes · TC1038</title><link rel="stylesheet" href="../../assets/css/activity.css"></head><body>
+<div class="nav"><a href="../../index.html">TC1038 · Fundamentos de Programación</a></div><div class="subnav"><strong>Reto · Ranking de puntajes</strong> · <a href="../../sessions/sesion-14.html">Volver a la sesión</a> · <a href="../../index.html#calendario">Calendario</a></div>
+<main class="container"><section class="section challenge"><span class="label">Listas</span><h2>Reto · Ranking de puntajes</h2><p>Analiza y ordena resultados almacenados.</p></section>
+<section class="section"><h3>Objetivo</h3><p>Aplicar el contenido del módulo en un problema pequeño que puedas explicar, modificar y probar. No se busca copiar una solución terminada: primero diseña el algoritmo y después implementa.</p></section>
+<section class="section"><h3>Antes de programar</h3><div class="pseudo"><header>Pseudocódigo <button class="copy" data-copy="pc">Copiar</button></header><pre id="pc">INICIO
+    LEER lista_puntajes
+    mayor &lt;- primer_elemento
+    PARA cada puntaje EN lista_puntajes HACER
+        SI puntaje &gt; mayor ENTONCES mayor &lt;- puntaje
+    FIN PARA
+    MOSTRAR mayor
+FIN</pre></div></section>
+<section class="section"><h3>Punto de partida en Python</h3><div class="code"><header>Python <button class="copy" data-copy="py">Copiar</button></header><pre id="py">puntajes = [120, 85, 230, 170, 95]
+mejor = puntajes[0]
+for p in puntajes:
+    if p &gt; mejor:
+        mejor = p
+print(f&quot;Mejor puntaje: {mejor}&quot;)</pre></div><p class="muted">Modifica el programa; agrega validaciones y prueba casos que no estén incluidos en el ejemplo.</p></section>
+<section class="section"><h3>Casos de prueba</h3><p>Compara tu resultado con max(puntajes), pero primero resuélvelo manualmente.</p></section>
+<section class="section"><h3>Entrega / evidencia</h3><ul class="collection"><li>Código Python ejecutable.</li><li>Al menos tres casos de prueba.</li><li>Una explicación breve del algoritmo usado.</li><li>Una mejora propia respecto al punto de partida.</li></ul></section>
+</main><footer class="footer">TC1038 · Tecnológico de Monterrey · <a href="../../index.html">Volver al curso</a></footer><script src="../../assets/js/lesson.js"></script></body></html>

@@ -1,0 +1,25 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Juego · Liebre y Tortuga · TC1038</title><link rel="stylesheet" href="../../assets/css/activity.css"></head><body>
+<div class="nav"><a href="../../index.html">TC1038 · Fundamentos de Programación</a></div><div class="subnav"><strong>Juego · Liebre y Tortuga</strong> · <a href="../../sessions/sesion-16.html">Volver a la sesión</a> · <a href="../../index.html#calendario">Calendario</a></div>
+<main class="container"><section class="section challenge"><span class="label">Matrices + random</span><h2>Juego · Liebre y Tortuga</h2><p>Representa posiciones sobre un tablero.</p></section>
+<section class="section"><h3>Objetivo</h3><p>Aplicar el contenido del módulo en un problema pequeño que puedas explicar, modificar y probar. No se busca copiar una solución terminada: primero diseña el algoritmo y después implementa.</p></section>
+<section class="section"><h3>Antes de programar</h3><div class="pseudo"><header>Pseudocódigo <button class="copy" data-copy="pc">Copiar</button></header><pre id="pc">INICIO
+    posición_liebre &lt;- 0
+    posición_tortuga &lt;- 0
+    MIENTRAS ninguna llegue a META HACER
+        posición_liebre &lt;- posición_liebre + movimiento_aleatorio
+        posición_tortuga &lt;- posición_tortuga + movimiento_aleatorio
+        ACTUALIZAR tablero
+        MOSTRAR tablero
+    FIN MIENTRAS
+FIN</pre></div></section>
+<section class="section"><h3>Punto de partida en Python</h3><div class="code"><header>Python <button class="copy" data-copy="py">Copiar</button></header><pre id="py">import random
+meta = 15
+liebre = 0
+tortuga = 0
+while liebre &lt; meta and tortuga &lt; meta:
+    liebre += random.randint(0, 3)
+    tortuga += random.randint(1, 2)
+    # TODO: crea una matriz/pista y representa ambas posiciones.</pre></div><p class="muted">Modifica el programa; agrega validaciones y prueba casos que no estén incluidos en el ejemplo.</p></section>
+<section class="section"><h3>Casos de prueba</h3><p>Evita que una posición supere el índice de la meta; usa min(posicion, meta).</p></section>
+<section class="section"><h3>Entrega / evidencia</h3><ul class="collection"><li>Código Python ejecutable.</li><li>Al menos tres casos de prueba.</li><li>Una explicación breve del algoritmo usado.</li><li>Una mejora propia respecto al punto de partida.</li></ul></section>
+</main><footer class="footer">TC1038 · Tecnológico de Monterrey · <a href="../../index.html">Volver al curso</a></footer><script src="../../assets/js/lesson.js"></script></body></html>

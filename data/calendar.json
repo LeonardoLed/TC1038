@@ -3,7 +3,7 @@
     "week": 1,
     "startDate": "2026-08-10",
     "endDate": "2026-08-14",
-    "title": "Tema 1 · Algoritmos y solución de problemas",
+    "title": "Presentación del curso · Tema 1 · Algoritmos y solución de problemas",
     "kind": "academic",
     "sessions": [
       {
@@ -13,22 +13,14 @@
         "time": "10:00–11:30",
         "status": "class",
         "label": "Sesión 1",
-        "topic": "Introducción al curso y solución de problemas",
-        "module": 1,
+        "topic": "Presentación y encuadre del curso",
+        "module": null,
         "page": "sessions/sesion-01.html",
-        "activities": [
-          "actividad1-2.html",
-          "actividad1-5.html"
-        ],
-        "projectAdvances": [
-          1
-        ],
+        "activities": [],
+        "projectAdvances": [],
         "learningFlow": {
           "before": [],
-          "during": [
-            "actividad1-2.html",
-            "actividad1-5.html"
-          ]
+          "during": []
         }
       },
       {
@@ -56,6 +48,10 @@
             "actividad1-4.html",
             "actividad1-5.html"
           ]
+        },
+        "challenge": {
+          "title": "Reto de diseño · Horas de vida",
+          "page": "activities/challenges/reto-horas-vida.html"
         }
       }
     ]
@@ -111,6 +107,10 @@
           "during": [
             "actividad2-2.html"
           ]
+        },
+        "challenge": {
+          "title": "Reto de ingeniería · Road Trip",
+          "page": "activities/challenges/reto-road-trip.html"
         }
       }
     ]
@@ -170,6 +170,10 @@
           "during": [
             "actividad6-2.html"
           ]
+        },
+        "challenge": {
+          "title": "Reto · Centro de control",
+          "page": "activities/challenges/reto-centro-control.html"
         }
       }
     ]
@@ -225,6 +229,10 @@
           "during": [
             "actividad3-2.html"
           ]
+        },
+        "challenge": {
+          "title": "Juego · Piedra, papel o tijera",
+          "page": "activities/challenges/reto-piedra-papel-tijera.html"
         }
       }
     ]
@@ -284,6 +292,10 @@
           "during": [
             "actividad7-3.html"
           ]
+        },
+        "challenge": {
+          "title": "Juego · Adivina el número",
+          "page": "activities/challenges/reto-adivina-numero.html"
         }
       }
     ]
@@ -343,6 +355,10 @@
         "learningFlow": {
           "before": [],
           "during": []
+        },
+        "challenge": {
+          "title": "Simulación · ¿Es justo el dado?",
+          "page": "activities/challenges/reto-dados.html"
         }
       }
     ]
@@ -402,6 +418,10 @@
           "during": [
             "actividad10-2.html"
           ]
+        },
+        "challenge": {
+          "title": "Reto · Ranking de puntajes",
+          "page": "activities/challenges/reto-ranking.html"
         }
       }
     ]
@@ -457,6 +477,10 @@
           "during": [
             "actividad12-3.html"
           ]
+        },
+        "challenge": {
+          "title": "Juego · Liebre y Tortuga",
+          "page": "activities/challenges/reto-liebre-tortuga.html"
         }
       }
     ]
@@ -512,6 +536,10 @@
           "during": [
             "actividad11-3.html"
           ]
+        },
+        "challenge": {
+          "title": "Reto · Cifrado César",
+          "page": "activities/challenges/reto-cifrado-cesar.html"
         }
       }
     ]
@@ -567,6 +595,10 @@
           "during": [
             "actividad14-3.html"
           ]
+        },
+        "challenge": {
+          "title": "Laboratorio · Azar y simulación",
+          "page": "activities/challenges/reto-random-lab.html"
         }
       }
     ]
@@ -631,6 +663,10 @@
           "during": [
             "actividad13-3.html"
           ]
+        },
+        "challenge": {
+          "title": "Reto · Guardar partida",
+          "page": "activities/challenges/reto-guardar-partida.html"
         }
       }
     ]
@@ -686,6 +722,10 @@
           "during": [
             "actividad15-3.html"
           ]
+        },
+        "challenge": {
+          "title": "Reto · Organiza y ejecuta",
+          "page": "activities/challenges/reto-rutas.html"
         }
       }
     ]

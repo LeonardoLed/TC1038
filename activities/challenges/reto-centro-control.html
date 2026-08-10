@@ -1,0 +1,19 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Reto · Centro de control · TC1038</title><link rel="stylesheet" href="../../assets/css/activity.css"></head><body>
+<div class="nav"><a href="../../index.html">TC1038 · Fundamentos de Programación</a></div><div class="subnav"><strong>Reto · Centro de control</strong> · <a href="../../sessions/sesion-06.html">Volver a la sesión</a> · <a href="../../index.html#calendario">Calendario</a></div>
+<main class="container"><section class="section challenge"><span class="label">Funciones</span><h2>Reto · Centro de control</h2><p>Organiza cálculos de una misión/viaje mediante funciones.</p></section>
+<section class="section"><h3>Objetivo</h3><p>Aplicar el contenido del módulo en un problema pequeño que puedas explicar, modificar y probar. No se busca copiar una solución terminada: primero diseña el algoritmo y después implementa.</p></section>
+<section class="section"><h3>Antes de programar</h3><div class="pseudo"><header>Pseudocódigo <button class="copy" data-copy="pc">Copiar</button></header><pre id="pc">FUNCIÓN convertir_km_millas(km)
+    RETORNAR km * 0.621371
+FIN FUNCIÓN
+
+PROBAR convertir_km_millas(0) = 0
+PROBAR convertir_km_millas(1) ≈ 0.621371</pre></div></section>
+<section class="section"><h3>Punto de partida en Python</h3><div class="code"><header>Python <button class="copy" data-copy="py">Copiar</button></header><pre id="py">def convertir_km_millas(km):
+    return km * 0.621371
+
+assert convertir_km_millas(0) == 0
+assert abs(convertir_km_millas(1) - 0.621371) &lt; 1e-6
+print(&quot;Pruebas superadas&quot;)</pre></div><p class="muted">Modifica el programa; agrega validaciones y prueba casos que no estén incluidos en el ejemplo.</p></section>
+<section class="section"><h3>Casos de prueba</h3><p>Diseña al menos tres casos: normal, frontera y un valor que te ayude a detectar errores.</p></section>
+<section class="section"><h3>Entrega / evidencia</h3><ul class="collection"><li>Código Python ejecutable.</li><li>Al menos tres casos de prueba.</li><li>Una explicación breve del algoritmo usado.</li><li>Una mejora propia respecto al punto de partida.</li></ul></section>
+</main><footer class="footer">TC1038 · Tecnológico de Monterrey · <a href="../../index.html">Volver al curso</a></footer><script src="../../assets/js/lesson.js"></script></body></html>
